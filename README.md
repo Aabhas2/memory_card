@@ -1,12 +1,99 @@
-# React + Vite
+# Pokémon Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive memory card game built with React, featuring Pokémon characters. Test your memory by clicking on cards without repeating any previous selections!
 
-Currently, two official plugins are available:
+![Pokémon Memory Game](./public/game-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Game Features
 
-## Expanding the ESLint configuration
+- Dynamic card shuffling after each selection
+- Score tracking system
+- Best score recording
+- Beautiful card flip animations
+- Responsive design for all devices
+- Pokémon data from PokéAPI
+- Sleek modern UI with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- React
+- Vite
+- Tailwind CSS
+- PokéAPI
+- Modern JavaScript (ES6+)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aabhas2/learn-react.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd memory_card
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit:
+   ```
+   http://localhost:5173
+   ```
+
+## 🎯 How to Play
+
+1. Click on any card to start the game
+2. Try to click on a different card each time
+3. Cards will shuffle after each click
+4. Game ends if you click the same card twice
+5. Try to beat your best score!
+
+## 📱 Responsive Design
+
+The game is fully responsive and works on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+## 🎨 Features
+
+- 3D card flip animations
+- Gradient backgrounds
+- Glassmorphism effects
+- Dynamic scoring system
+- Optimized performance
+- Accessible design
+
+## 🔧 Development
+
+The project uses:
+- Vite for fast development and building
+- ESLint for code quality
+- Prettier for code formatting
+- Tailwind CSS for styling
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Pokémon data provided by [PokéAPI](https://pokeapi.co/)
+- React documentation and community
+- Tailwind CSS team for the amazing framework
